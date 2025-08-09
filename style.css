@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: transparent;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deal-banner {
+  background-color: #6e00ff;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 0;
+  text-align: center;
+  position: relative;
+  border-radius: 9px;
+}
+
+.deal-banner p {
+  margin: 0;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.time-box {
+  margin: 0 5px;
+  text-align: center;
+}
+
+.time-box span {
+  display: block;
+  font-size: 12px;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 28px;
+  color: #ff6a00;
+}
+
+.selected-plan {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.money-back-guarantee {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.order-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.order-section h2 {
+  margin-bottom: 20px;
+}
+
+.plan-options {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.plan-option {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 23%;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.plan-option.best-deal {
+  border: 2px solid #00bfa5;
+}
+
+.setup-fee,
+.save-amount {
+  background-color: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.plan-price {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.plan-duration,
+.plan-renewal {
+  font-size: 14px;
+  color: #777;
+}
+
+.free-domain {
+  background-color: #00bfa5;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 12px;
+}
